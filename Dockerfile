@@ -12,5 +12,5 @@ COPY ghc_bootstrap.sh /usr/local/bin/ghc_bootstrap.sh
 
 RUN /usr/local/bin/ghc_bootstrap.sh
 
-
+CMD ghc --version
 
